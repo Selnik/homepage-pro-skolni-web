@@ -10,9 +10,10 @@ h1{
 .middle-container{
     background-color: #0a97b0;
     width: 200px;
-    height: ;
+    height: 200px ;
 }
 .bottom-container{
     background-color: #ffd3e1;
-
+    width: 200px;
+    height: 200px ;
 }

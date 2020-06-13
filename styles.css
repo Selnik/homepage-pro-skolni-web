@@ -2,9 +2,19 @@ body{
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    overflow: auto;
+    background-color: #0a97b0;
+    
 }
 h1{
     margin-top: 0;
+}
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .top-container{
     background-color: #1b6ca8;
@@ -39,9 +49,11 @@ h1{
 }
 h1{
     font-family: 'Montserrat', sans-serif;
+    font-size: 5.6em;
 }
 h2{
     font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
 }
 h3{
     font-family: 'Montserrat', sans-serif;
@@ -49,4 +61,44 @@ h3{
 .profil img{
     height: 150px;
     width: auto;
+    margin-top: 50px;
+}
+#cscode{
+    background-color: #8c8c8c;
+    color: #FFFFFF;
+    white-space: pre-line;
+    text-align: left;
+    font-family: monospace;
+    font-size: 0.8em;
+}
+.prg{
+    width: 30%;
+    margin: auto 3% auto 0;
+    float: left;
+}
+.codelam{
+    display: inline-block;
+}
+.edu{
+    width: 30%;
+    margin: auto 3% auto 2%;
+    float: left;
+}
+.webdev{
+    width: 30%;
+    margin: auto 0 auto 2%;
+    float: right;
+    
+}
+.studyimg{
+    width: 30%;
+    height: auto;
+}
+#htmlcode{
+    background-color: #000000;
+    color: #e000ce;
+    white-space: pre-line;
+    text-align: left;
+    font-family: monospace;
+    font-size: 0.8em;
 }

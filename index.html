@@ -30,13 +30,58 @@
             <hr>
             <div class="codelam">
               <h2>Co dělám?</h2>
+              <div class="prg">
+                <h3>Programování</h3>
+                <p>Ovládám OOP a jeho koncepty, píšu v jazycích jako C<span style="color: purple;">#</span>, <span style="color: #306998">Py</span><span style="color: #FFD43B;">thon</span> a <span style="color: orange;">Java</span>.</p>
+                <div id="cscode">
+                      
+                  </div>
+                  <script type="text/javascript">
+                  var i=0,text;
+                  text = "for (int i = 0; i < pocetTlacitek; i++)" + "\n" + "{" + "\n" + "Button tlačítko = new Button()" + "\n" + "{" + "\n" + "Parent = Deska,\nText = Convert.ToString(i + 1),\nSize = new Size(sirkaT - 10, vyskaT - 10),\nLocation = new Point(((i % 4) * sirkaT), ((i / 4) * vyskaT)),\nBackColor = Color.Yellow,\nTabIndex = i\n};\ntlačítko.Click += Tlačítko_Click;" + "\n" + "}"
+                  function typing()   
+                  {
+                      if(i<text.length){
+                          document.getElementById("cscode").innerHTML +=text.charAt(i);
+                          i++;
+                          setTimeout(typing,70)
+                      }
+                  }
+                  typing();
+                  </script>
+              </div> 
+              <div class="edu">
+                  <h3>Studium</h3>
+                  <p>Studuji druhý ročník oboru informační technologie na střední škole <b>Edu<span style="color: orange;">chem</span></b></p>
+                  <img src="img/study.png" class="studyimg">
+              </div>
+              <div class="webdev">
+                  <h3>Web development</h3>
+                  <p>Front-End ani Back-End technologie mi nejsou cizí. Zvládnu taky publikační systémy jako <span style="color:#003d99 ;">wordpress</span>.</p>
+                  <div id="htmlcode">
 
+                  </div>
+                  <script type="text/javascript">
+                    var y=0,texth;
+                    texth = "<html>" + "\n" + "<head>" + "\n" + "<title>Webová stránka</title>" + "\n" + "</head>" + "\n" + "<body>" + "\n" + "<h1>Hello world!</h1>" + "\n" + "<p>Nemám rád JavaScript :-( </p>" + "\n" + "</body>" + "\n" + "</html>"
+                    function typingh()   
+                    {
+                        if(y<texth.length){
+                            document.getElementById("htmlcode").innerHTML +=texth.charAt(y);
+                            y++;
+                            setTimeout(typingh,150)
+                        }
+                    }
+                    typingh();
+                    </script>
+              </div>
             </div>
             <hr>
             <div class="projekty">
-                <h1>Moje projekty</h1>
+                <h2>Moje projekty</h2>
             </div>      
         </div>
+    </div>
         <div class="bottom-container">
             <a class="footer-link" href="https://www.facebook.com/vojtechsebekfb">Facebook</a>
             <a class="footer-link" href="https://twitter.com/vojtech_sebek">Twitter</a>

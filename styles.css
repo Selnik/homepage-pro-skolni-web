@@ -1,19 +1,52 @@
 body{
     margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
 }
 h1{
     margin-top: 0;
 }
 .top-container{
     background-color: #1b6ca8;
+    position: relative;
+    padding-top: 10%;
 }
 .middle-container{
     background-color: #0a97b0;
-    width: 200px;
-    height: 200px ;
 }
 .bottom-container{
     background-color: #ffd3e1;
-    width: 200px;
-    height: 200px ;
+}
+.top-cloud{
+    position: absolute;
+    right: 20%;
+    top: 3%;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 15%;
+    bottom: 70%;
+}
+.nadpis{
+    position: relative;
+    
+}
+.nadpis h1{
+    font-family: 'Sacramento', cursive;
+}
+.mountain{
+    width: 50%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.profil img{
+    height: 150px;
+    width: auto;
 }

@@ -153,3 +153,7 @@ h3{
 .projekty a:hover{
     color: #EAF6F6;
 }
+.projekty hr{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}

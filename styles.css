@@ -34,6 +34,10 @@ hr{
     color: #11999e;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
+    margin: 1%;
+}
+.bottom-container i{
+    margin-right: 0.3%;
 }
 .bottom-container a:hover{
     color: #EAF6F6;
@@ -141,89 +145,11 @@ h3{
     float: left;
     margin: 3%;
 }
+.projekty a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 
-.projekt-odkaz {
-	-moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
-	-webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
-	box-shadow: 0px 0px 0px 2px #9fb4f2;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e) );
-	background:-moz-linear-gradient( center top, #7892c2 5%, #476e9e 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e');
-	background-color:#7892c2;
-	-webkit-border-top-left-radius:5px;
-	-moz-border-radius-topleft:5px;
-	border-top-left-radius:5px;
-	-webkit-border-top-right-radius:5px;
-	-moz-border-radius-topright:5px;
-	border-top-right-radius:5px;
-	-webkit-border-bottom-right-radius:5px;
-	-moz-border-radius-bottomright:5px;
-	border-bottom-right-radius:5px;
-	-webkit-border-bottom-left-radius:5px;
-	-moz-border-radius-bottomleft:5px;
-	border-bottom-left-radius:5px;
-text-indent:0;
-	display:inline-block;
-	color:#ffffff;
-	font-family:arial;
-	font-size:10px;
-	font-weight:bold;
-	font-style:normal;
-height:18px;
-	line-height:18px;
-width:39px;
-	text-decoration:none;
-	text-align:center;
-	text-shadow:0px 1px 0px #283966;
-}.projekt-odkaz:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2) );
-	background:-moz-linear-gradient( center top, #476e9e 5%, #7892c2 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2');
-	background-color:#476e9e;
-}.projekt-odkaz:active {
-	position:relative;
-	top:1px;
 }
-.projekt-github {
-	-moz-box-shadow:inset 0px 1px 3px 0px #2b665e;
-	-webkit-box-shadow:inset 0px 1px 3px 0px #2b665e;
-	box-shadow:inset 0px 1px 3px 0px #2b665e;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #768d87), color-stop(1, #6c7c7c) );
-	background:-moz-linear-gradient( center top, #768d87 5%, #6c7c7c 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#6c7c7c');
-	background-color:#768d87;
-	-webkit-border-top-left-radius:5px;
-	-moz-border-radius-topleft:5px;
-	border-top-left-radius:5px;
-	-webkit-border-top-right-radius:5px;
-	-moz-border-radius-topright:5px;
-	border-top-right-radius:5px;
-	-webkit-border-bottom-right-radius:5px;
-	-moz-border-radius-bottomright:5px;
-	border-bottom-right-radius:5px;
-	-webkit-border-bottom-left-radius:5px;
-	-moz-border-radius-bottomleft:5px;
-	border-bottom-left-radius:5px;
-text-indent:0;
-	display:inline-block;
-	color:#ffffff;
-	font-family:arial;
-	font-size:10px;
-	font-weight:bold;
-	font-style:normal;
-height:18px;
-	line-height:18px;
-width:42px;
-	text-decoration:none;
-	text-align:center;
-	text-shadow:0px -1px 0px #528ecc;
-}.projekt-github:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #6c7c7c), color-stop(1, #768d87) );
-	background:-moz-linear-gradient( center top, #6c7c7c 5%, #768d87 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#768d87');
-	background-color:#6c7c7c;
-}.projekt-github:active {
-	position:relative;
-	top:1px;
+.projekty a:hover{
+    color: #EAF6F6;
 }
-

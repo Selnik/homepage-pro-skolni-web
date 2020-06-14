@@ -15,6 +15,7 @@ hr{
     width: 4%;
     margin-top: 100px;
     margin-bottom: 100px;
+    clear: both;
 }
 .top-container{
     background-color: #1b6ca8;
@@ -26,6 +27,16 @@ hr{
 }
 .bottom-container{
     background-color: #ffd3e1;
+    padding: 50px 0 20px;
+    
+}
+.bottom-container a{
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+.bottom-container a:hover{
+    color: #EAF6F6;
 }
 .top-cloud{
     position: absolute;
@@ -70,6 +81,8 @@ h3{
     text-align: left;
     font-family: monospace;
     font-size: 0.8em;
+    margin-left: 3%;
+    border: 8px outset #B45BFF;
 }
 .prg{
     width: 30%;
@@ -101,4 +114,116 @@ h3{
     text-align: left;
     font-family: monospace;
     font-size: 0.8em;
+    margin-right: 3%;
+    border: 8px outset #FF8672;
 }
+.profil p{
+    width: 30%;
+    margin: auto;
+}
+.projekty{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10%;
+  
+}
+.projekty a{
+    margin: 1%;
+}
+
+.projekty-text{
+    float: left;
+    width: 69%;
+}
+.projekt-img{
+    width: 25%;
+    height: auto;
+    float: left;
+    margin: 3%;
+}
+
+.projekt-odkaz {
+	-moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	-webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e) );
+	background:-moz-linear-gradient( center top, #7892c2 5%, #476e9e 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e');
+	background-color:#7892c2;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:10px;
+	font-weight:bold;
+	font-style:normal;
+height:18px;
+	line-height:18px;
+width:39px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 1px 0px #283966;
+}.projekt-odkaz:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2) );
+	background:-moz-linear-gradient( center top, #476e9e 5%, #7892c2 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2');
+	background-color:#476e9e;
+}.projekt-odkaz:active {
+	position:relative;
+	top:1px;
+}
+.projekt-github {
+	-moz-box-shadow:inset 0px 1px 3px 0px #2b665e;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #2b665e;
+	box-shadow:inset 0px 1px 3px 0px #2b665e;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #768d87), color-stop(1, #6c7c7c) );
+	background:-moz-linear-gradient( center top, #768d87 5%, #6c7c7c 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#6c7c7c');
+	background-color:#768d87;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:10px;
+	font-weight:bold;
+	font-style:normal;
+height:18px;
+	line-height:18px;
+width:42px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px -1px 0px #528ecc;
+}.projekt-github:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #6c7c7c), color-stop(1, #768d87) );
+	background:-moz-linear-gradient( center top, #6c7c7c 5%, #768d87 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#768d87');
+	background-color:#6c7c7c;
+}.projekt-github:active {
+	position:relative;
+	top:1px;
+}
+
